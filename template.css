@@ -1,5 +1,51 @@
-@media screen and (max-width: 375px){
+@media screen and (min-width: 375px){
     .column {
         width: 100%;
     }
 }
+
+@media screen and (min-width: 1440px){
+
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: auto;
+}
+
+body {
+    font-family: 'Karla', sans-serif;
+    background-color: hsl(204, 43%, 93%);
+}
+
+#community {
+    background-color: white;
+}
+#join-community {
+    color: hsl(179, 62%, 43%);
+}
+
+#money-back {
+    color: hsl(71, 73%, 54%);
+}
+
+#gain-access{
+color: hsl(218, 22%, 67%);
+}
+
+#subscription {
+    background-color: hsl(179, 62%, 43%);
+    color: white;
+}
+
+#why-us {
+    color:  white;
+    background-color: hsl(179, 62%, 43%);
+    filter:brightness(105%);
+}
+
+ul{
+    list-style-type: none;
+    padding: 0; 
+    margin: 0; 
+  }
