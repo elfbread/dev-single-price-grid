@@ -11,6 +11,7 @@
 .grid-container {
     display: grid;
     grid-template-columns: auto;
+    padding: 10px 10px 10px 10px;
 }
 
 body {
@@ -20,28 +21,49 @@ body {
 
 #community {
     background-color: white;
+    padding-left: 10px;
 }
 #join-community {
     color: hsl(179, 62%, 43%);
+    font-weight: bold;
 }
 
 #money-back {
     color: hsl(71, 73%, 54%);
+    font-weight: bold;
 }
 
 #gain-access{
 color: hsl(218, 22%, 67%);
+padding-right: 3px;
 }
 
 #subscription {
     background-color: hsl(179, 62%, 43%);
     color: white;
+    padding-left: 10px;
+}
+
+#monthly-subscription {
+    font-weight: bold;
+}
+
+#sign-up {
+    font-size: large;
+    background-color: hsl(71, 73%, 54%);
+    padding: 3px 0px 3px 3px;
+    display: grid;
+    justify-content: center;
+    
+    
 }
 
 #why-us {
     color:  white;
     background-color: hsl(179, 62%, 43%);
     filter:brightness(105%);
+    padding-left: 10px;
+    padding-bottom: 10px;
 }
 
 ul{
